@@ -1,4 +1,4 @@
-// this for take two inputz from users
+// this for take two inputs from users
 document.getElementById('submitted').addEventListener('click',function(e){
   var input1 = document.getElementById('inputHeight').value;
   var input2 = document.getElementById('inputWidth').value;
@@ -12,7 +12,7 @@ function makeGrid(input1,input2) {
 var table = document.getElementById('pixelCanvas');
 //to remove the table if the user decied to make another table
 table.innerHTML = "";
-// the loop here for row in table t
+// the loop here for row in table 
   for (var i = 0;i<input1;i++){
   var row = document.createElement('tr');
 
